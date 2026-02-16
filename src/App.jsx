@@ -31,12 +31,13 @@ function App() {
     <>
       <ReactLenis root />
       {/* <Cursor /> */}
-      <main>
-        <p className="bold">{Intro.intro[lang]}</p>
+      <main >
+        <p className="bold" style={{letterSpacing: "-0.10em"}}>{Intro.intro[lang]}</p>
         <div className="nav">
           <a
             href="mailto:jjjules.n@gmail.com"
             className="bold cursor-pointer hover:underline"
+            style={{letterSpacing: "-0.10em", marginTop:"0.5%"}}
           >
             jjjules.n@gmail.com
           </a>

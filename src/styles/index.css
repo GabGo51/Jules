@@ -11,12 +11,13 @@
 /* Use the font face only when it's loaded */
 * {
   font-family: 'Helvetica', sans-serif;
+  letter-spacing: -0.15em;
 }
 
 .bold {
   font-family: Helvetica XBold, sans-serif;
-  font-size:1.85vw; 
-  line-height: 0.99; 
+  font-size:2.21vw; 
+  line-height: 0.95; 
   letter-spacing: 0em; 
   /* text-align: left; */
   margin: 0 auto;
@@ -26,7 +27,7 @@
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('/fonts/Helvetica.ttc') format('truetype-collection');
+  src: url('/fonts/HelveticaLTStd-Blk.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
