@@ -7,7 +7,7 @@ const Image = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
   const [isHovered, setIsHovered] = useState(false);
   const { lang, setLang } = useLanguage();
-  
+
   if (!images[name]) {
     return <div>Image not found: {name}</div>;
   }
@@ -20,50 +20,52 @@ const Image = ({ name, gridColumn, margin }) => {
   const contextKey = lang === "fr" ? "contextFr" : "contextEn";
 
   return (
-    <div style={{ gridColumn: gridColumn }}
-          onMouseLeave={() => {
-          normal();
-          setIsHovered(false);
-        }}>
+    <div style={{ gridColumn: gridColumn }}>
       <div
-        style={{
-          marginTop: margin,
-          backgroundImage: `url(${lowRes})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          position: "relative",
-          width: "100%",
-          overflow: "hidden",
-        }}
         onMouseEnter={() => {
           hover();
           setIsHovered(true);
         }}
-      >
-        <img
-          src={highRes}
-          alt={name}
-          style={{
-            width: "100%",
-            height: "auto",
-            objectFit: "cover",
-            display: "block",
-            transition: isHovered ? "none" : "transform 0.3s ease",
-          }}
-        />
-      </div>
-
-      <div
-        style={{
-          opacity: isHovered ? 1 : 0,
-          transform: isHovered ? "translateY(0)" : "translateY(-10px)",
-          transition: "opacity 0.3s ease, transform 0.3s ease",
+        onMouseLeave={() => {
+          normal();
+          setIsHovered(false);
         }}
-        className="img-text"
       >
-        <p className="title">{images[name][titleKey]}</p>
-        <p className="type">{images[name][typeKey]}</p>
-        <p className="context">{images[name][contextKey]}</p>
+        <div
+          style={{
+            marginTop: margin,
+            backgroundImage: `url(${lowRes})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            position: "relative",
+            width: "100%",
+            overflow: "hidden",
+          }}
+        >
+          <img
+            src={highRes}
+            alt={name}
+            style={{
+              width: "100%",
+              height: "auto",
+              objectFit: "cover",
+              display: "block",
+              transition: isHovered ? "none" : "transform 0.3s ease",
+            }}
+          />
+        </div>
+        <div
+          style={{
+            opacity: isHovered ? 1 : 0,
+            transform: isHovered ? "translateY(0)" : "translateY(-10px)",
+            transition: "opacity 0.3s ease, transform 0.3s ease",
+          }}
+          className="img-text"
+        >
+          <p className="title">{images[name][titleKey]}</p>
+          <p className="type">{images[name][typeKey]}</p>
+          <p className="context">{images[name][contextKey]}</p>
+        </div>
       </div>
     </div>
   );

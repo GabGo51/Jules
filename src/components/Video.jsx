@@ -7,7 +7,7 @@ const Video = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
   const [isHovered, setIsHovered] = useState(false);
   const { lang, setLang } = useLanguage();
-  
+
   if (!images[name]) {
     return <div>Image not found: {name}</div>;
   }
@@ -17,7 +17,6 @@ const Video = ({ name, gridColumn, margin }) => {
   const titleKey = lang === "fr" ? "titleFr" : "titleEn";
   const typeKey = lang === "fr" ? "typeFr" : "typeEn";
   const contextKey = lang === "fr" ? "contextFr" : "contextEn";
-  
 
   return (
     <div
@@ -28,7 +27,7 @@ const Video = ({ name, gridColumn, margin }) => {
       <div
         style={{
           marginTop: margin,
-          
+
           width: "100%",
         }}
         onMouseEnter={() => {
@@ -40,12 +39,10 @@ const Video = ({ name, gridColumn, margin }) => {
       >
         <video
           src={src}
-          autoPlay   
-          muted      
-          loop       
-          playsInline 
-          
-          
+          autoPlay
+          muted
+          loop
+          playsInline
           style={{
             width: "100%",
             height: "auto",
@@ -53,19 +50,18 @@ const Video = ({ name, gridColumn, margin }) => {
             display: "block",
           }}
         />
-      </div>
-
-      <div
-        style={{
-          opacity: isHovered ? 1 : 0,
-          transform: isHovered ? "translateY(0)" : "translateY(-10px)",
-          transition: "opacity 0.3s ease, transform 0.3s ease",
-        }}
-        className="img-text"
-      >
-        <p className="title">{images[name][titleKey]}</p>
-        <p className="type">{images[name][typeKey]}</p>
-        <p className="context">{images[name][contextKey]}</p>
+        <div
+          style={{
+            opacity: isHovered ? 1 : 0,
+            transform: isHovered ? "translateY(0)" : "translateY(-10px)",
+            transition: "opacity 0.3s ease, transform 0.3s ease",
+          }}
+          className="img-text"
+        >
+          <p className="title">{images[name][titleKey]}</p>
+          <p className="type">{images[name][typeKey]}</p>
+          <p className="context">{images[name][contextKey]}</p>
+        </div>
       </div>
     </div>
   );
