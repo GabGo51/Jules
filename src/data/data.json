@@ -1,14 +1,4 @@
 {
-  "anatolie_01": {
-    "lowRes": "/img/lowres/anatolie_01.jpg",
-    "highRes": "/img/highres/anatolie_01.jpg",
-    "titleFr": "système d'emballage & bagues en argent",
-    "titleEn": "packaging system & silver rings",
-    "typeFr": "avec sandrine desaulnier",
-    "typeEn": "with sandrine desaulnier",
-    "contextFr": "2024",
-    "contextEn": "2024"
-  },
   "anatolie_02": {
     "lowRes": "/img/lowres/anatolie_02.jpg",
     "highRes": "/img/highres/anatolie_02.jpg",
@@ -120,16 +110,6 @@
     "contextFr": "2025",
     "contextEn": "2025"
   },
-  "nuitblue_01": {
-    "lowRes": "/img/lowres/nuitblue_01.jpg",
-    "highRes": "/img/highres/nuitblue_01.jpg",
-    "titleFr": "videoclip pour kamino",
-    "titleEn": "music video for kamino",
-    "typeFr": "avec keenan moïse",
-    "typeEn": "with keenan moïse",
-    "contextFr": "2025",
-    "contextEn": "2025"
-  },
   "nuitblue_02": {
     "lowRes": "/img/lowres/nuitblue_02.jpg",
     "highRes": "/img/highres/nuitblue_02.jpg",
@@ -153,16 +133,6 @@
   "pdfe_02": {
     "lowRes": "/img/lowres/pdfe_02.jpg",
     "highRes": "/img/highres/pdfe_02.jpg",
-    "titleFr": "projet de fin d'études ",
-    "titleEn": "graduation project",
-    "typeFr": "réalisé dans touchdesigner",
-    "typeEn": "created with touchdesigner",
-    "contextFr": "2024",
-    "contextEn": "2024"
-  },
-  "pdfe_03": {
-    "lowRes": "/img/lowres/pdfe_03.jpg",
-    "highRes": "/img/highres/pdfe_03.jpg",
     "titleFr": "projet de fin d'études ",
     "titleEn": "graduation project",
     "typeFr": "réalisé dans touchdesigner",
@@ -230,16 +200,6 @@
     "contextFr": "2025",
     "contextEn": "2025"
   },
-  "jackalope_02": {
-    "lowRes": "/img/lowres/jackalope_02.jpg",
-    "highRes": "/img/highres/jackalope_02.jpg",
-    "titleFr": "habillage d'une compétition d'escalade",
-    "titleEn": "branding for a climbing competition",
-    "typeFr": "pour jackalope, organisé par allez up",
-    "typeEn": "for jackalope, organised by allez up",
-    "contextFr": "2025",
-    "contextEn": "2025"
-  },
   "Ada": {
     "mp4": "/img/mp4/Ada.mp4",
     "titleFr": "logotype animé",
@@ -266,33 +226,6 @@
     "typeEn": "created in blender",
     "contextFr": "2023",
     "contextEn": "2023"
-  },
-  "anim_03": {
-    "mp4": "/img/mp4/anim_03.mp4",
-    "titleFr": "animation",
-    "titleEn": "animation",
-    "typeFr": "pour l'exposition motif",
-    "typeEn": "for motif; an exhibition",
-    "contextFr": "2025",
-    "contextEn": "2025"
-  },
-  "foil_01": {
-    "mp4": "/img/mp4/foil_01.mp4",
-    "titleFr": "logotype animé",
-    "titleEn": "animated logo",
-    "typeFr": "pour studio martha",
-    "typeEn": "for martha studio",
-    "contextFr": "2025",
-    "contextEn": "2025"
-  },
-  "mayman_03": {
-    "mp4": "/img/mp4/mayman_03.mp4",
-    "titleFr": "logotype pour remi van bochove",
-    "titleEn": "logo for remi van bochove",
-    "typeFr": "avec jeremy rivest",
-    "typeEn": "with jeremy rivest",
-    "contextFr": "2025",
-    "contextEn": "2025"
   },
   "mtnslab_01": {
     "mp4": "/img/mp4/mtnslab_01.mp4",
@@ -348,15 +281,6 @@
     "contextFr": "2024",
     "contextEn": "2024"
   },
-  "SBP_01": {
-    "mp4": "/img/mp4/SBP_01.mp4",
-    "titleFr": "contribution au magazine pica 15",
-    "titleEn": "contribution to issue 15 of pica magazine",
-    "typeFr": "avec thomas berthomier & léa rivard",
-    "typeEn": "with thomas berthomier & léa rivard",
-    "contextFr": "2024",
-    "contextEn": "2024"
-  },
     "mapp_02": {
     "mp4": "/img/mp4/mapp_02.mp4",
     "titleFr": "identité pour mapp mtl",
@@ -375,15 +299,6 @@
     "contextFr": "2024",
     "contextEn": "2024"
   },
-  "mutek_01": {
-    "mp4": "/img/mp4/mutek_01.mp4",
-    "titleFr": "visuels pour mutek mtl",
-    "titleEn": "visuals for mutek mtl",
-    "typeFr": "baillat studio",
-    "typeEn": "baillat studio",
-    "contextFr": "2024",
-    "contextEn": "2024"
-  },
   "bioitalia_01": {
     "mp4": "/img/mp4/bioitalia_01.mp4",
     "titleFr": "image de marque & emballage pour bioitalia",
@@ -392,14 +307,5 @@
     "typeEn": "martha studio",
     "contextFr": "2025",
     "contextEn": "2025"  
-  },
-  "jackalope_03": {
-    "mp4": "/img/mp4/jackalope_03.mp4",
-    "titleFr": "habillage d'une compétition d'escalade",
-    "titleEn": "branding for a climbing competition",
-    "typeFr": "pour jackalope, organisé par allez up",
-    "typeEn": "for jackalope, organised by allez up",
-    "contextFr": "2025",
-    "contextEn": "2025"
   }    
 }
