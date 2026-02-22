@@ -53,15 +53,17 @@ function App() {
         <section>
           <Layer>
             <Image gridColumn="1 /6 " name="errance_01" margin=""/>
-            <Image gridColumn="7 /13 " name="nuitblue_02" margin="50%" />
+            <Image gridColumn="7 /13 " name="nuitblue_02" margin="60%" />
           </Layer>
           <Layer>
-            <Video gridColumn="2 /11 " name="nuitblue_03"  />
+            <Video gridColumn="2 /11 " name="nuitblue_03" margin="8%"  />
           </Layer>
           <Layer>
-            <Video gridColumn="4 /13 " name="mapp_02" margin="10%" />
-            <Video gridColumn="3 /6" name="mapp_03" margin="30%" />
-            <Image gridColumn="8 /13 " name="wales_01" margin="80%" />
+            <Video gridColumn="4 /13 " name="mapp_02" margin="8%" />
+            <Video gridColumn="1 /4" name="mapp_03" margin="-60%" />
+          </Layer>
+          <Layer>
+            <Image gridColumn="11 /12 " name="wales_01" margin="80%" />
           </Layer>
           <Layer>
             <Image gridColumn="2 /6 " name="anatolie_03" margin="-20%" />
@@ -160,7 +162,7 @@ function App() {
             marginLeft: "5%",
           }}
         >
-          {lang === "fr" ? "Retour" : "Top"}
+          {lang === "fr" ? "Re t o u r" : "To p"}
         </button>
       </main>
     </>

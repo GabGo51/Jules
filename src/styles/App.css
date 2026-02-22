@@ -23,7 +23,7 @@
   padding: 0;                /* Reset padding */
   font-size: clamp(10px, 1.5vw, 28px);  /* Responsive font size */
   line-height: 0.9;
-  letter-spacing: -0.15em;
+  letter-spacing: -0.1em;
   color: #333;
 }
 
@@ -35,7 +35,7 @@
 .scripttype {
 font-family: Porcelain;
 font-size: 9vw;
-letter-spacing: -0.15em;
+letter-spacing: -0.16em;
 margin-bottom: 0%;
 color: #333;
 cursor: pointer;
