@@ -13,6 +13,7 @@
   text-align: left;
 }
 
+/* this is small bold type u dumb fuck */
 /* Text styling for all metadata lines */
 .img-text .title,
 .img-text .type,
@@ -22,6 +23,7 @@
   padding: 0;                /* Reset padding */
   font-size: clamp(10px, 1.5vw, 28px);  /* Responsive font size */
   line-height: 0.9;
+  letter-spacing: -0.15em;
   color: #333;
 }
 
@@ -33,7 +35,19 @@
 .scripttype {
 font-family: Porcelain;
 font-size: 9vw;
+letter-spacing: -0.15em;
 margin-bottom: 0%;
 color: #333;
+cursor: pointer;
 }
 
+.bold {
+  font-family: Helvetica XBold, sans-serif;
+  font-size:2.21vw; 
+  line-height: 0.95; 
+  letter-spacing: 0em; 
+  /* text-align: left; */
+  margin: 0 auto;
+  white-space: normal;
+  word-break: break-word;
+}

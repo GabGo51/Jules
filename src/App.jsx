@@ -42,7 +42,7 @@ function App() {
             jjjules.n@gmail.com
           </a>
           <div style={{marginRight:"5%", marginTop:"2%"}}>
-            <button className="scripttype"  onClick={() => setLang("fr")}>
+            <button className="scripttype" onClick={() => setLang("fr")}>
               Fr / 
             </button>
             <button className="scripttype" onClick={() => setLang("en")}>
@@ -57,7 +57,6 @@ function App() {
           </Layer>
           <Layer>
             <Video gridColumn="2 /11 " name="nuitblue_03"  />
-            <Image gridColumn="3 /7 " name="nuitblue_01" margin="10%" />
           </Layer>
           <Layer>
             <Video gridColumn="4 /13 " name="mapp_02" margin="10%" />
@@ -73,7 +72,6 @@ function App() {
             <Image gridColumn="4 /12 " name="anatolie_04" margin="10%" />
           </Layer>
           <Layer>
-            <Image gridColumn="1 /6 " name="bioitalia_01" margin="20%" />
             <Image gridColumn="1 /8 " name="triplex_01" margin="80%" />
             <Image gridColumn="10 /13 " name="triplex_03" margin="20%" />
           </Layer>
