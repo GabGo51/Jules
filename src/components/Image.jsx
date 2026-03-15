@@ -20,7 +20,7 @@ const Image = ({ name, gridColumn, margin }) => {
   const contextKey = lang === "fr" ? "contextFr" : "contextEn";
 
   return (
-    <div style={{ gridColumn: gridColumn }}>
+    <div style={{ marginTop: margin,gridColumn: gridColumn }}>
       <div
         onMouseEnter={() => {
           hover();
@@ -33,7 +33,7 @@ const Image = ({ name, gridColumn, margin }) => {
       >
         <div
           style={{
-            marginTop: margin,
+            
             backgroundImage: `url(${lowRes})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
